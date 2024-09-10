@@ -1,0 +1,1164 @@
+﻿body
+{
+    background: white;
+    width: 600pt;
+    margin-left: 5pt;
+    padding: 0pt 0pt 0pt 0pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+.TdHeader
+{
+    display: block;
+    background-color: White;
+}
+
+.ImagenHeader
+{
+    display: none;
+}
+.Botonera
+{
+    display: none;
+}
+.BotonFinalizar
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_0
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_1
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_2
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_5
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_6
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_7
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_8
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_9
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_10
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_12
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_13
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_14
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_15
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_16
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_17
+{
+    display: none;
+}
+.ctl00_Menu1_Menu1_18
+{
+    display: none;
+}
+.NetMenuRootItemSelected
+{
+    display: none;
+}
+.NetMenuDynamicMenuStyle
+{
+    display: none;
+}
+.NetMenuDynamicSubMenuStyle
+{
+    display: none;
+}
+.NetMenuDynamicItem
+{
+    display: none;
+}
+.NetMenuDynamicSubItem
+{
+    display: none;
+}
+.NetMenuDynamicItemSelected
+{
+    display: none;
+}
+
+.ctl00_Menu1_Menu1_3
+{
+    display: inline;
+}
+.ctl00_Menu1_Menu1_4
+{
+    display: inline;
+}
+.ctl00_Menu1_Menu1_11
+{
+    display: inline;
+}
+
+.HeaderTipoDato
+{
+    font-weight: bold;
+    color: Black;
+}
+
+.HeaderDato
+{
+    font-weight: normal;
+    color: Black;
+}
+
+.TablaGeneral
+{
+    width: 540pt;
+    border: solid 1pt gray;
+    background-color: #FFFFFF;
+}
+
+.BotonAyuda
+{
+    background-color: Transparent;
+    background-image: url(../images/header_r2_c3.jpg);
+    background-repeat: no-repeat;
+    border-width: 0pt;
+    width: 37pt;
+    height: 40pt;
+}
+
+.FechaHoyLabel
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7pt;
+    font-weight: normal;
+    color: gray;
+}
+
+.TablaHeader
+{
+    text-align: left;
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+.IndexTituloCelda
+{
+    padding-right: 5pt;
+    padding-left: 5pt;
+    font-weight: bold;
+    font-size: 11pt;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9ca2ad;
+    text-align: left;
+    height: 20pt;
+}
+.IndexCeldaTabla
+{
+    font-size: 11pt;
+    color: #000000;
+    padding: 2pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e4e4e4;
+    text-decoration: none;
+    text-align: left;
+    height: 18pt;
+}
+
+.CerrarSesion
+{
+    text-align: left;
+    font-size: 8pt;
+    font-weight: bold;
+    border: solid 0pt;
+    padding: 0pt 0pt 0pt 0pt;
+    background-color: Transparent;
+    color: black;
+    cursor: pointer;
+    height: 14pt;
+}
+
+.TablaDatosCabeceraCeldaHeader
+{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 3pt;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 16pt;
+}
+
+
+.InfoPie
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    padding: 1pt;
+    border: solid 1pt black;
+}
+
+
+.TablaCeldaTexto
+{
+    text-align: left;
+    font-weight: bold;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 1pt;
+    border: solid 1pt gray;
+    height: 16pt;
+}
+
+
+.TablaIndexResaltado
+{
+    text-align: left;
+    background-color: #DEDFDE;
+}
+
+
+.InputBoxPeriodo
+{
+    border: solid 1pt #FFBB8D;
+    color: #001C8B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    font-weight: normal;
+    height: 14pt;
+}
+
+.TablaIndexTitulo
+{
+    font-weight: bold;
+    background-color: gray;
+    color: White;
+}
+
+.TablaSubTitulo
+{
+    height: 20pt;
+    border-style: none;
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: left;
+    color: Green;
+}
+
+
+.TextoIngresoDatos
+{
+    text-align: left;
+    height: 15pt;
+    border-style: none;
+    font-size: 13pt;
+    font-weight: bold;
+    color: #001C8B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr.TextoIngresoDatosColor
+{
+    background-color: #F7F7F7;
+}
+
+.TextoIngresoApellido INPUT
+{
+    text-align: left;
+    border: solid 1pt #FFBB8D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    font-size: 14pt;
+}
+
+.TextoIngresoApellido SELECT
+{
+    text-align: left;
+    border: solid 1pt #FFBB8D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    font-size: 14pt;
+}
+
+
+.TextPrefijo
+{
+    text-align: center;
+    border: solid 1pt #FFBB8D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    font-size: 14pt;
+    width: 20pt;
+}
+
+.TextNroCuil
+{
+    text-align: center;
+    border: solid 1pt #FFBB8D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    font-size: 14pt;
+    width: 70pt;
+}
+
+.TextSufijo
+{
+    text-align: center;
+    border: solid 1pt #FFBB8D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    font-size: 14pt;
+    width: 13pt;
+}
+
+.InputTextBusqueda
+{
+    text-align: left;
+    border: solid 1pt #FFBB8D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    font-size: 14pt;
+}
+
+.TextoImportante
+{
+    border-style: none;
+    font-size: 15pt;
+    font-weight: bold;
+    color: #EA3603;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TDReferenciaPago
+{
+    width: 10pt;
+    height: 5pt;
+    background-color: #94FFCE;
+    border: 1pt groove black;
+    text-align: left;
+}
+
+.TDReferenciaPagoParcial
+{
+    width: 10pt;
+    height: 5pt;
+    background-color: #FFFB9C;
+    border: 2pt dotted black;
+    text-align: left;
+}
+
+.TDReferenciaImpago
+{
+    width: 10pt;
+    height: 5pt;
+    background-color: #FF5555;
+    border: double black;
+    text-align: left;
+}
+
+.TDReferenciaNoDeclarado
+{
+    width: 10pt;
+    height: 5pt;
+    background-color: #F1F3F5;
+    border: solid 1pt black;
+    text-align: left;
+}
+
+.TDInformacion
+{
+    width: 10pt;
+    height: 5pt;
+    text-align: left;
+}
+
+.HeadConsultaBasica
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8C;
+    background-color: #C9DEF5;
+    border: solid 1pt black;
+    height: 18pt;
+}
+
+.FooterConsultaBasica
+{
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    border: solid 1pt black;
+    padding-left: 15pt;
+    padding-right: 15pt;
+}
+
+.TDPeriodo
+{
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1pt #D6D3CE;
+    background-color: #F7F7F7;
+    color: #747474;
+    text-align: center;
+}
+
+.TDNoPresentadaDecJurada
+{
+    font-size: 13pt;
+    background-color: #CCCCCC;
+    padding: 1pt;
+    border: solid 1pt #E8E8E8;
+    text-align: center;
+}
+.TDNoEnDecJurada
+{
+    font-size: 13pt;
+    background-color: #FFFFFF;
+    padding: 1pt;
+    border: solid 1pt black;
+    text-align: center;
+}
+
+.TDSiEnDecJurada
+{
+    font-size: 13pt;
+    background-color: #99FFCC;
+    padding: 1pt;
+    border: solid 1pt black;
+    text-align: center;
+}
+
+.TDNoPresentaAporte
+{
+    font-size: 13pt;
+    background-color: #CCCCCC;
+    padding: 1pt;
+    border: solid 1pt #E8E8E8;
+    text-align: center;
+}
+
+.TDNoAporte
+{
+    font-size: 13pt;
+    background-color: #FFFFFF;
+    padding: 1pt;
+    border: solid 1pt black;
+    text-align: center;
+}
+
+.TDAportePago
+{
+    font-size: 13pt;
+    background-color: #99FFCC;
+    padding: 1pt;
+    border: solid 1pt black;
+    text-align: center;
+    border: 1pt groove black;
+}
+
+.TDAportePagoParcial
+{
+    font-size: 13pt;
+    background-color: #FFFF99;
+    padding: 1pt;
+    border: 2pt dotted black;
+    text-align: center;
+}
+
+.TDAporteImpago
+{
+    font-size: 13pt;
+    background-color: #FF5555;
+    color: #FFFFFF;
+    padding: 1pt;
+    border: double black;
+    text-align: center;
+}
+
+.TDNoPresentaAporteOS
+{
+    font-size: 13pt;
+    background-color: #CCCCCC;
+    padding: 1pt;
+    border: solid 1pt #E8E8E8;
+    text-align: center;
+}
+
+.TDNoAporteOS
+{
+    font-size: 13pt;
+    background-color: #FFFFFF;
+    padding: 1pt;
+    border: solid 1pt black;
+    text-align: center;
+}
+
+.TDAporteOSPago
+{
+    font-size: 13pt;
+    background-color: #99FFCC;
+    padding: 1pt;
+    text-align: center;
+    border: 1pt groove black;
+}
+
+.TDAporteOSPagoParcial
+{
+    font-size: 13pt;
+    background-color: #FFFF99;
+    padding: 1pt;
+    border: 2pt dotted black;
+    text-align: center;
+}
+
+.TDAporteOSImpago
+{
+    font-size: 13pt;
+    background-color: #FF5555;
+    color: #FFFFFF;
+    padding: 1pt;
+    border: double black;
+    text-align: center;
+}
+
+.TDNoPresentaContPatronal
+{
+    font-size: 13pt;
+    background-color: #CCCCCC;
+    padding: 1pt;
+    border: solid 1pt #E8E8E8;
+    text-align: center;
+}
+
+.TDNoContPatronal
+{
+    font-size: 13pt;
+    background-color: #FFFFFF;
+    padding: 1pt;
+    border: solid 1pt black;
+    text-align: center;
+}
+
+.TDContPatronalPago
+{
+    font-size: 13pt;
+    background-color: #99FFCC;
+    padding: 1pt;
+    border: 1pt groove black;
+    text-align: center;
+}
+
+.TDContPatronalPagoParcial
+{
+    font-size: 13pt;
+    background-color: #FFFF99;
+    padding: 1pt;
+    border: 2pt dotted black;
+    text-align: center;
+}
+
+.TDContPatronalImpago
+{
+    font-size: 13pt;
+    background-color: #FF5555;
+    color: #FFFFFF;
+    padding: 1pt;
+    border: double black;
+    text-align: center;
+}
+
+.HeadTablaConsultaAuth
+{
+    background-color: #CCCCCC;
+    color: black;
+    font-weight: bold;
+    font-size: 10pt;
+    padding: 1pt 1pt 1pt 1pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1pt black;
+    text-align: center;
+    height: 17pt;
+}
+
+.TDPeriodoSinDatos
+{
+    font-size: 9pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.TDPeriodoUnderLine
+{
+    font-size: 9pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+}
+
+.TDPeriodoGeneral
+{
+    border: solid 1pt black;
+}
+
+.TDSinRemBruta
+{
+    background-color: #F1F3F5;
+    padding: 1pt;
+    border: solid 1pt black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDGuion
+{
+    background-color: #FFFFFF;
+    text-align: center;
+    border: solid 1pt black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDConRemBruta
+{
+    background-color: #FFFFFF;
+    padding: 1pt 1pt 1pt 1pt;
+    text-align: right;
+    border: solid 1pt black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDAporteSSNoDeclarado
+{
+    background-color: #F1F3F5;
+    border: solid 1pt black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDAporteSSPago
+{
+    background-color: #99FFCC;
+    padding: 1pt 4pt 1pt 1pt;
+    text-align: right;
+    border: 1pt groove black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDAporteSSPagoParcial
+{
+    background-color: #FFFF99;
+    padding: 1pt 4pt 1pt 1pt;
+    text-align: right;
+    border: 2pt dotted black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDAporteSSImpago
+{
+    padding: 1pt 4pt 1pt 1pt;
+    text-align: right;
+    border: double black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDAporteOSNoDeclaradoF
+{
+    padding: 1pt 4pt 1pt 1pt;
+    text-align: right;
+    border: solid 1pt black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    background-color: #F1F3F5;
+}
+
+.TDAporteOSPagoF
+{
+    padding: 1pt 4pt 1pt 1pt;
+    text-align: right;
+    border: 1pt groove black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDAporteOSPagoParcialF
+{
+    padding: 1pt 4pt 1pt 1pt;
+    text-align: right;
+    border: 2pt dotted black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDAporteOSImpagoF
+{
+    padding: 1pt 4pt 1pt 1pt;
+    text-align: right;
+    border: double black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDContribOSNoDeclarado
+{
+    border: solid 1pt black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    background-color: #F1F3F5;
+}
+
+.TDContribOSPago
+{
+    text-align: center;
+    border: 1pt groove black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDContribOSPagoParcial
+{
+    text-align: center;
+    border: 2pt dotted black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDContribOSImpago
+{
+    text-align: center;
+    border: double black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.TDNoContribOS
+{
+    text-align: center;
+    border: solid 1pt black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+
+.TituloDetallePeriodo
+{
+    background-color: #CCCCCC;
+    color: black;
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1pt 1pt 1pt 1pt;
+    border: solid 1pt black;
+    text-align: center;
+}
+
+.SubTituloDetallePeriodo
+{
+    padding: 1pt 2pt 1pt 4pt;
+    border: solid 1pt black;
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+.DetallePeriodoCeldaTexto
+{
+    background-color: white;
+    text-align: left;
+    padding: 1pt 4pt 1pt 1pt;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: solid 1pt black;
+}
+
+.DetallePeriodoCeldaImporte
+{
+    background-color: white;
+    text-align: right;
+    padding: 1pt 4pt 1pt 1pt;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: solid 1pt black;
+}
+
+.TextoDetallePeriodo
+{
+    padding: 1pt 2pt 1pt 2pt;
+    border: solid 1pt black;
+    font-size: 10pt;
+    color: #000000;
+}
+
+.TotalesDetalle
+{
+    padding: 1pt 2pt 1pt 4pt;
+    border: solid 1pt black;
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    background-color: #CCCCCC;
+    color: #000000;
+}
+
+.TDNoDeclarado
+{
+    padding: 1pt 2pt 1pt 4pt;
+    background-color: #F1F3F5;
+    border: solid 1pt black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+}
+.TDImpago
+{
+    padding: 1pt 2pt 1pt 4pt; /*    background-color: #FF5555; */ /*    color: #FFFFFF; */
+    text-align: center;
+    border: double black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+.TDPago
+{
+    padding: 1pt 2pt 1pt 4pt; /*    background-color: #99FFCC;*/
+    text-align: center;
+    border: solid 1pt black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+.TDPagoParcial
+{
+    background-color: #FFFF9C;
+    padding: 1pt 2pt 1pt 2pt;
+    text-align: center;
+    border: 2pt dotted black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+.TDTextoRojo
+{
+    background-color: #FFFFFF;
+    color: #FF5555;
+    padding: 1pt 1pt 1pt 5pt;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    border: solid 0pt black;
+}
+
+.TDTextoNegro
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 1pt 4pt 1pt 1pt;
+    border: solid 1pt black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+.TDVacio
+{
+    border: solid 0pt black;
+    padding: 1pt 1pt 1pt 5pt;
+}
+
+
+.ItemMasInfo
+{
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding: 1pt 2pt 1pt 4pt;
+    border: solid 1pt black;
+}
+
+
+.MasInfoCeldaTexto
+{
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 1pt 1pt 1pt 4pt;
+    border: solid 1pt black;
+}
+
+.MasInfoCeldaNumerico
+{
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding: 1pt 4pt 1pt 1pt;
+    border: solid 1pt black;
+}
+
+
+.MasInfoCeldaNumericoFuerte
+{
+    font-weight: bold;
+    text-align: right;
+    padding: 1pt 4pt 1pt 1pt;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1pt black;
+}
+
+.TablaBasicaError
+{
+    background-color: white;
+    color: #001C8B;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TablaBasicaOtrosLink
+{
+    background-color: #FFFAF0;
+    color: #AF6215;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TituloBuzon
+{
+    background-color: #C9DEF5;
+    color: #001C8C;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1pt 4pt 1pt 1pt;
+    border: solid 1pt #AAAAAA;
+    text-align: center;
+}
+
+.ItemBuzon
+{
+    padding: 1pt 4pt 1pt 1pt;
+    border: solid 1pt #CEC9C4;
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFAF0;
+    color: #001C8B;
+}
+
+.SubItemBuzon
+{
+    background-color: #F2F0FA;
+    padding: 1pt 4pt 1pt 1pt;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    border: solid 1pt black;
+}
+
+.SubSubItemBuzon
+{
+    background-color: #FFFAFF;
+    padding: 1pt 4pt 1pt 1pt;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    border: solid 1pt black;
+}
+
+.BuzonCuitPrefijoOld
+{
+    text-align: center;
+    border: solid 1pt #FFBB8D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    font-size: 11pt;
+    width: 20pt;
+}
+
+.BuzonCuitNroOld
+{
+    text-align: center;
+    border: solid 1pt #FFBB8D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    font-size: 11pt;
+    width: 70pt;
+}
+
+.BuzonCuitSufijoOld
+{
+    text-align: center;
+    border: solid 1pt #FFBB8D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    font-size: 11pt;
+    width: 13pt;
+}
+
+
+.BuzonCuitPrefijo
+{
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    padding: 1pt;
+    border: solid 1pt black;
+    height: 16pt;
+    text-align: center;
+    width: 20pt;
+}
+
+.BuzonCuitNro
+{
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    padding: 1pt;
+    border: solid 1pt black;
+    height: 16pt;
+    text-align: center;
+    width: 70pt;
+}
+
+.BuzonCuitSufijo
+{
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #001C8B;
+    padding: 1pt;
+    border: solid 1pt black;
+    height: 16pt;
+    text-align: center;
+    width: 13pt;
+}
+
+.TablaErrorPage
+{
+    width: 98%;
+}
+
+div.centre
+{
+    width: 710pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.obligatorio
+{
+    font-weight: normal;
+    color: #FF0000;
+}
+
+hr.sep
+{
+    height: 1pt;
+}
+
+hr.sep2
+{
+    color: #C0C0C0;
+    width: 98%;
+    border-bottom-width: 1pt;
+}
+
+.AlternatingItem
+{
+    background-color: #DDF2FF;
+}
+
+.periodo
+{
+    color: Black;
+}
+
+.tablaReferencia
+{
+    border: solid 1pt black;
+}
+
+.TituloMasInfo
+{
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 1pt 2pt 1pt 4pt;
+    border: solid 1pt black;
+    height: 20px;
+}
+
+.TRpdo
+{
+    border-style:groove;
+}
+
+.TDpdo
+{
+    background-color: gray;
+}

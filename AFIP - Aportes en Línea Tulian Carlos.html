@@ -1,0 +1,1205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0076)https://serviciossegsoc.afip.gob.ar/MisAportes/app/consulta/MuestraFull.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es-ar"><head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	AFIP - Aportes en Línea
+</title><link rel="shortcut icon" type="image/x-icon" href="./AFIP - Aportes en Línea Tulian Carlos_files/adeafip.ico"><link href="./AFIP - Aportes en Línea Tulian Carlos_files/StyleSheet.css" rel="stylesheet" type="text/css" media="screen"><link href="./AFIP - Aportes en Línea Tulian Carlos_files/Print.css" rel="stylesheet" type="text/css" media="print">
+
+    <script type="text/javascript" src="./AFIP - Aportes en Línea Tulian Carlos_files/jquery-1.8.3.min.js.descarga"></script>
+
+    <script type="text/javascript" src="./AFIP - Aportes en Línea Tulian Carlos_files/jquery.blockUI.min.js.descarga"></script>
+
+    <script type="text/javascript" src="./AFIP - Aportes en Línea Tulian Carlos_files/jquery-waiting.min.js.descarga"></script>
+
+    <script type="text/javascript" src="./AFIP - Aportes en Línea Tulian Carlos_files/ael-blockui.min.js.descarga"></script>
+
+    <script type="text/javascript">
+      
+    function downloadURL(url) {
+        window.open(url, '_blank', '', false);
+        return false;
+    }; 
+    
+    function showmod(msg) {
+        window.alert(msg);
+        return false;
+    }; 
+    
+    $(document).ready(function(){        
+       jQuery('.numbersOnly').keyup(function () { 
+           if (this.value != this.value.replace(/[^0-9\.]/g, '')) {
+               this.value = this.value.replace(/[^0-9\.]/g, '');
+           }
+        });
+    });
+    </script>
+
+</head>
+<body id="ctl00_MasterBody" role="document">
+    <form name="aspnetForm" method="post" action="https://serviciossegsoc.afip.gob.ar/MisAportes/app/consulta/MuestraFull.aspx" id="aspnetForm" role="main">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTU1Mjg0ODE2Mw9kFgJmD2QWAgIDD2QWAgIBD2QWCgIDD2QWBAIBDxYGHgRocmVmBRovbWlzYXBvcnRlcy9hcHAvaW5kZXguYXNweB4Lb25Nb3VzZU92ZXIFKlRUUl9TaG93UHJldmlldygnY3RsMDBfYXJlYUhvbWVfVG9vbFRpcCcpOx4Kb25Nb3VzZU91dAUSVFRSX0hpZGVQcmV2aWV3KCk7ZAIDDxYGHwAFJmphdmFzY3JpcHQ6dmVyQnV6b24oKTs7ICQudW5ibG9ja1VJKCk7HwEFK1RUUl9TaG93UHJldmlldygnY3RsMDBfYXJlYUJ1em9uX1Rvb2xUaXAnKTsfAgUSVFRSX0hpZGVQcmV2aWV3KCk7ZAILDw8WAh4ISW1hZ2VVcmwFI34vYXBwL2ltYWdlcy9oZWFkZXJfcjFfYzFfYnV6b24uanBnFgIeBlVTRU1BUAUKI21hcGFsb2dpbmQCDw8PFgIeB1Zpc2libGVoZGQCEQ9kFgoCBQ8PFgIeBFRleHQFDVRVTElBTiBDQVJMT1NkZAINDw8WAh8GBQ0yMC0zMDY1OTIxMS01ZGQCDw8WAh8FaBYGAgEPDxYCHwVoZGQCAw8PFgIfBWhkZAIFDw8WAh8FaGRkAhEPZBYCAgUPDxYCHwYFJURJU1RSSUJVSURPUkEgQVJNQURBIEFSR0VOVElOQSBTLlIuTC5kZAITD2QWAgIFDw8WAh8GBQ0zMy03MTQ0NTEwNy05ZGQCHw9kFgwCBw9kFgJmD2QWAmYPZBYCAgEPZBYCZg9kFgQCAQ9kFgICAQ8WAh4JaW5uZXJodG1sBQ0zMy03MTQ0NTEwNy05ZAIDD2QWAgIBDxYCHwcFJURJU1RSSUJVSURPUkEgQVJNQURBIEFSR0VOVElOQSBTLlIuTC5kAgkPFgIfBgV8UkVTVU1FTiAgREUgIFNJVFVBQ0nDk04gIFBSRVZJU0lPTkFMICBERVNERSAgRUwgPHNwYW4gY2xhc3M9J3BlcmlvZG8nPjEwLzIwMTQ8L3NwYW4+IEFMIDxzcGFuIGNsYXNzPSdwZXJpb2RvJz4wNi8yMDE1PC9zcGFuPmQCCw8WBB4LXyFJdGVtQ291bnQCCR8FZxYSAgEPZBYSZg8VAgAQVERQZXJpb2RvR2VuZXJhbGQCAQ9kFgJmD2QWAmYPZBYGAhUPDxYMHghDc3NDbGFzcwUSVERQZXJpb2RvVW5kZXJMaW5lHwYFBzEwLzIwMTQeD0NvbW1hbmRBcmd1bWVudAUGMjAxNDEwHg1PbkNsaWVudENsaWNrBRdqYXZhc2NyaXB0OnJldHVybiB0cnVlOx4HVG9vbFRpcAUZVmVyIGRldGFsbGUgZGVsIHBlcsOtb2RvLh4EXyFTQgICZGQCFw8PFgQfCwUXamF2YXNjcmlwdDpyZXR1cm4gdHJ1ZTsfCgUGMjAxNDEwZGQCGQ8PFgIfBWhkZAICDxUDDVREQ29uUmVtQnJ1dGEACDQuODA0LDEyZAIDDw8WAh8FaGQWAmYPFQEOVERBcG9ydGVTU1BhZ29kAgUPZBYEAgEPDxYCHwVoZBYCZg8VAQ5UREFwb3J0ZVNTUGFnb2QCAw9kFgJmDxUFDlREQXBvcnRlU1NQYWdvBjcxMywwNw5UREFwb3J0ZVNTUGFnbwAGNzEzLDA3ZAIHDw8WAh8FaGQWAmYPFQIPVERBcG9ydGVPU1BhZ29GJVNPTE8gQ09CRVJUVVJBIERFIFJJRVNHT1MgREVMIFRSQUJBSk9kAgkPZBYEAgEPDxYCHwVoZBYCZg8VAQ9UREFwb3J0ZU9TUGFnb0ZkAgMPZBYCZg8VCQp0YWJsZS1jZWxsD1REQXBvcnRlT1NQYWdvRgYyMjksNTAKdGFibGUtY2VsbA9UREFwb3J0ZU9TUGFnb0YGMjI5LDUwATEHVERHdWlvbidPUyBFTVBMLiBDT01FUkNJTyBZIEFDVC4gQ0lWSUxFUyAoMTI2MilkAgsPDxYCHwVoZBYCZg8VAQ9URENvbnRyaWJPU1BhZ29kAg0PZBYCZg8VAg9URENvbnRyaWJPU1BhZ28EUEFHT2QCAg9kFhJmDxUCABBURFBlcmlvZG9HZW5lcmFsZAIBD2QWAmYPZBYCZg9kFgYCFQ8PFgwfCQUSVERQZXJpb2RvVW5kZXJMaW5lHwYFBzExLzIwMTQfCgUGMjAxNDExHwsFF2phdmFzY3JpcHQ6cmV0dXJuIHRydWU7HwwFGVZlciBkZXRhbGxlIGRlbCBwZXLDrW9kby4fDQICZGQCFw8PFgQfCwUXamF2YXNjcmlwdDpyZXR1cm4gdHJ1ZTsfCgUGMjAxNDExZGQCGQ8PFgIfBWhkZAICDxUDDVREQ29uUmVtQnJ1dGEACDkuOTY3LDYyZAIDDw8WAh8FaGQWAmYPFQEOVERBcG9ydGVTU1BhZ29kAgUPZBYEAgEPDxYCHwVoZBYCZg8VAQ5UREFwb3J0ZVNTUGFnb2QCAw9kFgJmDxUFDlREQXBvcnRlU1NQYWdvBjc0NSw3Mg5UREFwb3J0ZVNTUGFnbwAGNzQ1LDcyZAIHDw8WAh8FaGQWAmYPFQIPVERBcG9ydGVPU1BhZ29GJVNPTE8gQ09CRVJUVVJBIERFIFJJRVNHT1MgREVMIFRSQUJBSk9kAgkPZBYEAgEPDxYCHwVoZBYCZg8VAQ9UREFwb3J0ZU9TUGFnb0ZkAgMPZBYCZg8VCQp0YWJsZS1jZWxsD1REQXBvcnRlT1NQYWdvRgYyMDQsMDAKdGFibGUtY2VsbA9UREFwb3J0ZU9TUGFnb0YGMjA0LDAwATEHVERHdWlvbidPUyBFTVBMLiBDT01FUkNJTyBZIEFDVC4gQ0lWSUxFUyAoMTI2MilkAgsPDxYCHwVoZBYCZg8VAQ9URENvbnRyaWJPU1BhZ29kAg0PZBYCZg8VAg9URENvbnRyaWJPU1BhZ28EUEFHT2QCAw9kFhJmDxUCABBURFBlcmlvZG9HZW5lcmFsZAIBD2QWAmYPZBYCZg9kFgYCFQ8PFgwfCQURVERQZXJpb2RvU2luRGF0b3MfBgUHMTIvMjAxNB8KBQYyMDE0MTIfCwUYamF2YXNjcmlwdDpyZXR1cm4gZmFsc2U7HwwFMU5vIGV4aXN0ZSBkZWNsYXJhY2nDs24ganVyYWRhIHBhcmEgZXN0ZSBwZXLDrW9kby4fDQICZGQCFw8PFgYfCwUYamF2YXNjcmlwdDpyZXR1cm4gZmFsc2U7HwoFBjIwMTQxMh8FaGRkAhkPDxYCHwVoZGQCAg8VAw1URE5vRGVjbGFyYWRvAABkAgMPDxYCHwVoZBYCZg8VARVUREFwb3J0ZVNTTm9EZWNsYXJhZG9kAgUPZBYEAgEPDxYCHwVoZBYCZg8VARVUREFwb3J0ZVNTTm9EZWNsYXJhZG9kAgMPZBYCZg8VBRVUREFwb3J0ZVNTTm9EZWNsYXJhZG8AFVREQXBvcnRlU1NOb0RlY2xhcmFkbwAAZAIHDw8WAh8FaGQWAmYPFQIWVERBcG9ydGVPU05vRGVjbGFyYWRvRiVTT0xPIENPQkVSVFVSQSBERSBSSUVTR09TIERFTCBUUkFCQUpPZAIJD2QWBAIBDw8WAh8FaGQWAmYPFQEWVERBcG9ydGVPU05vRGVjbGFyYWRvRmQCAw9kFgJmDxUJCnRhYmxlLWNlbGwWVERBcG9ydGVPU05vRGVjbGFyYWRvRgAKdGFibGUtY2VsbBZUREFwb3J0ZU9TTm9EZWNsYXJhZG9GAAExFlREQ29udHJpYk9TTm9EZWNsYXJhZG8AZAILDw8WAh8FaGQWAmYPFQEWVERDb250cmliT1NOb0RlY2xhcmFkb2QCDQ9kFgJmDxUCFlREQ29udHJpYk9TTm9EZWNsYXJhZG8AZAIED2QWEmYPFQIAEFREUGVyaW9kb0dlbmVyYWxkAgEPZBYCZg9kFgJmD2QWBgIVDw8WDB8JBRFURFBlcmlvZG9TaW5EYXRvcx8GBQcwMS8yMDE1HwoFBjIwMTUwMR8LBRhqYXZhc2NyaXB0OnJldHVybiBmYWxzZTsfDAUxTm8gZXhpc3RlIGRlY2xhcmFjacOzbiBqdXJhZGEgcGFyYSBlc3RlIHBlcsOtb2RvLh8NAgJkZAIXDw8WBh8LBRhqYXZhc2NyaXB0OnJldHVybiBmYWxzZTsfCgUGMjAxNTAxHwVoZGQCGQ8PFgIfBWhkZAICDxUDDVRETm9EZWNsYXJhZG8AAGQCAw8PFgIfBWhkFgJmDxUBFVREQXBvcnRlU1NOb0RlY2xhcmFkb2QCBQ9kFgQCAQ8PFgIfBWhkFgJmDxUBFVREQXBvcnRlU1NOb0RlY2xhcmFkb2QCAw9kFgJmDxUFFVREQXBvcnRlU1NOb0RlY2xhcmFkbwAVVERBcG9ydGVTU05vRGVjbGFyYWRvAABkAgcPDxYCHwVoZBYCZg8VAhZUREFwb3J0ZU9TTm9EZWNsYXJhZG9GJVNPTE8gQ09CRVJUVVJBIERFIFJJRVNHT1MgREVMIFRSQUJBSk9kAgkPZBYEAgEPDxYCHwVoZBYCZg8VARZUREFwb3J0ZU9TTm9EZWNsYXJhZG9GZAIDD2QWAmYPFQkKdGFibGUtY2VsbBZUREFwb3J0ZU9TTm9EZWNsYXJhZG9GAAp0YWJsZS1jZWxsFlREQXBvcnRlT1NOb0RlY2xhcmFkb0YAATEWVERDb250cmliT1NOb0RlY2xhcmFkbwBkAgsPDxYCHwVoZBYCZg8VARZURENvbnRyaWJPU05vRGVjbGFyYWRvZAIND2QWAmYPFQIWVERDb250cmliT1NOb0RlY2xhcmFkbwBkAgUPZBYSZg8VAgAQVERQZXJpb2RvR2VuZXJhbGQCAQ9kFgJmD2QWAmYPZBYGAhUPDxYMHwkFEVREUGVyaW9kb1NpbkRhdG9zHwYFBzAyLzIwMTUfCgUGMjAxNTAyHwsFGGphdmFzY3JpcHQ6cmV0dXJuIGZhbHNlOx8MBTFObyBleGlzdGUgZGVjbGFyYWNpw7NuIGp1cmFkYSBwYXJhIGVzdGUgcGVyw61vZG8uHw0CAmRkAhcPDxYGHwsFGGphdmFzY3JpcHQ6cmV0dXJuIGZhbHNlOx8KBQYyMDE1MDIfBWhkZAIZDw8WAh8FaGRkAgIPFQMNVEROb0RlY2xhcmFkbwAAZAIDDw8WAh8FaGQWAmYPFQEVVERBcG9ydGVTU05vRGVjbGFyYWRvZAIFD2QWBAIBDw8WAh8FaGQWAmYPFQEVVERBcG9ydGVTU05vRGVjbGFyYWRvZAIDD2QWAmYPFQUVVERBcG9ydGVTU05vRGVjbGFyYWRvABVUREFwb3J0ZVNTTm9EZWNsYXJhZG8AAGQCBw8PFgIfBWhkFgJmDxUCFlREQXBvcnRlT1NOb0RlY2xhcmFkb0YlU09MTyBDT0JFUlRVUkEgREUgUklFU0dPUyBERUwgVFJBQkFKT2QCCQ9kFgQCAQ8PFgIfBWhkFgJmDxUBFlREQXBvcnRlT1NOb0RlY2xhcmFkb0ZkAgMPZBYCZg8VCQp0YWJsZS1jZWxsFlREQXBvcnRlT1NOb0RlY2xhcmFkb0YACnRhYmxlLWNlbGwWVERBcG9ydGVPU05vRGVjbGFyYWRvRgABMRZURENvbnRyaWJPU05vRGVjbGFyYWRvAGQCCw8PFgIfBWhkFgJmDxUBFlREQ29udHJpYk9TTm9EZWNsYXJhZG9kAg0PZBYCZg8VAhZURENvbnRyaWJPU05vRGVjbGFyYWRvAGQCBg9kFhJmDxUCABBURFBlcmlvZG9HZW5lcmFsZAIBD2QWAmYPZBYCZg9kFgYCFQ8PFgwfCQURVERQZXJpb2RvU2luRGF0b3MfBgUHMDMvMjAxNR8KBQYyMDE1MDMfCwUYamF2YXNjcmlwdDpyZXR1cm4gZmFsc2U7HwwFMU5vIGV4aXN0ZSBkZWNsYXJhY2nDs24ganVyYWRhIHBhcmEgZXN0ZSBwZXLDrW9kby4fDQICZGQCFw8PFgYfCwUYamF2YXNjcmlwdDpyZXR1cm4gZmFsc2U7HwoFBjIwMTUwMx8FaGRkAhkPDxYCHwVoZGQCAg8VAw1URE5vRGVjbGFyYWRvAABkAgMPDxYCHwVoZBYCZg8VARVUREFwb3J0ZVNTTm9EZWNsYXJhZG9kAgUPZBYEAgEPDxYCHwVoZBYCZg8VARVUREFwb3J0ZVNTTm9EZWNsYXJhZG9kAgMPZBYCZg8VBRVUREFwb3J0ZVNTTm9EZWNsYXJhZG8AFVREQXBvcnRlU1NOb0RlY2xhcmFkbwAAZAIHDw8WAh8FaGQWAmYPFQIWVERBcG9ydGVPU05vRGVjbGFyYWRvRiVTT0xPIENPQkVSVFVSQSBERSBSSUVTR09TIERFTCBUUkFCQUpPZAIJD2QWBAIBDw8WAh8FaGQWAmYPFQEWVERBcG9ydGVPU05vRGVjbGFyYWRvRmQCAw9kFgJmDxUJCnRhYmxlLWNlbGwWVERBcG9ydGVPU05vRGVjbGFyYWRvRgAKdGFibGUtY2VsbBZUREFwb3J0ZU9TTm9EZWNsYXJhZG9GAAExFlREQ29udHJpYk9TTm9EZWNsYXJhZG8AZAILDw8WAh8FaGQWAmYPFQEWVERDb250cmliT1NOb0RlY2xhcmFkb2QCDQ9kFgJmDxUCFlREQ29udHJpYk9TTm9EZWNsYXJhZG8AZAIHD2QWEmYPFQIAEFREUGVyaW9kb0dlbmVyYWxkAgEPZBYCZg9kFgJmD2QWBgIVDw8WDB8JBRFURFBlcmlvZG9TaW5EYXRvcx8GBQcwNC8yMDE1HwoFBjIwMTUwNB8LBRhqYXZhc2NyaXB0OnJldHVybiBmYWxzZTsfDAUxTm8gZXhpc3RlIGRlY2xhcmFjacOzbiBqdXJhZGEgcGFyYSBlc3RlIHBlcsOtb2RvLh8NAgJkZAIXDw8WBh8LBRhqYXZhc2NyaXB0OnJldHVybiBmYWxzZTsfCgUGMjAxNTA0HwVoZGQCGQ8PFgIfBWhkZAICDxUDDVRETm9EZWNsYXJhZG8AAGQCAw8PFgIfBWhkFgJmDxUBFVREQXBvcnRlU1NOb0RlY2xhcmFkb2QCBQ9kFgQCAQ8PFgIfBWhkFgJmDxUBFVREQXBvcnRlU1NOb0RlY2xhcmFkb2QCAw9kFgJmDxUFFVREQXBvcnRlU1NOb0RlY2xhcmFkbwAVVERBcG9ydGVTU05vRGVjbGFyYWRvAABkAgcPDxYCHwVoZBYCZg8VAhZUREFwb3J0ZU9TTm9EZWNsYXJhZG9GJVNPTE8gQ09CRVJUVVJBIERFIFJJRVNHT1MgREVMIFRSQUJBSk9kAgkPZBYEAgEPDxYCHwVoZBYCZg8VARZUREFwb3J0ZU9TTm9EZWNsYXJhZG9GZAIDD2QWAmYPFQkKdGFibGUtY2VsbBZUREFwb3J0ZU9TTm9EZWNsYXJhZG9GAAp0YWJsZS1jZWxsFlREQXBvcnRlT1NOb0RlY2xhcmFkb0YAATEWVERDb250cmliT1NOb0RlY2xhcmFkbwBkAgsPDxYCHwVoZBYCZg8VARZURENvbnRyaWJPU05vRGVjbGFyYWRvZAIND2QWAmYPFQIWVERDb250cmliT1NOb0RlY2xhcmFkbwBkAggPZBYSZg8VAgAQVERQZXJpb2RvR2VuZXJhbGQCAQ9kFgJmD2QWAmYPZBYGAhUPDxYMHwkFEVREUGVyaW9kb1NpbkRhdG9zHwYFBzA1LzIwMTUfCgUGMjAxNTA1HwsFGGphdmFzY3JpcHQ6cmV0dXJuIGZhbHNlOx8MBTFObyBleGlzdGUgZGVjbGFyYWNpw7NuIGp1cmFkYSBwYXJhIGVzdGUgcGVyw61vZG8uHw0CAmRkAhcPDxYGHwsFGGphdmFzY3JpcHQ6cmV0dXJuIGZhbHNlOx8KBQYyMDE1MDUfBWhkZAIZDw8WAh8FaGRkAgIPFQMNVEROb0RlY2xhcmFkbwAAZAIDDw8WAh8FaGQWAmYPFQEVVERBcG9ydGVTU05vRGVjbGFyYWRvZAIFD2QWBAIBDw8WAh8FaGQWAmYPFQEVVERBcG9ydGVTU05vRGVjbGFyYWRvZAIDD2QWAmYPFQUVVERBcG9ydGVTU05vRGVjbGFyYWRvABVUREFwb3J0ZVNTTm9EZWNsYXJhZG8AAGQCBw8PFgIfBWhkFgJmDxUCFlREQXBvcnRlT1NOb0RlY2xhcmFkb0YlU09MTyBDT0JFUlRVUkEgREUgUklFU0dPUyBERUwgVFJBQkFKT2QCCQ9kFgQCAQ8PFgIfBWhkFgJmDxUBFlREQXBvcnRlT1NOb0RlY2xhcmFkb0ZkAgMPZBYCZg8VCQp0YWJsZS1jZWxsFlREQXBvcnRlT1NOb0RlY2xhcmFkb0YACnRhYmxlLWNlbGwWVERBcG9ydGVPU05vRGVjbGFyYWRvRgABMRZURENvbnRyaWJPU05vRGVjbGFyYWRvAGQCCw8PFgIfBWhkFgJmDxUBFlREQ29udHJpYk9TTm9EZWNsYXJhZG9kAg0PZBYCZg8VAhZURENvbnRyaWJPU05vRGVjbGFyYWRvAGQCCQ9kFhJmDxUCABBURFBlcmlvZG9HZW5lcmFsZAIBD2QWAmYPZBYCZg9kFgYCFQ8PFgwfCQURVERQZXJpb2RvU2luRGF0b3MfBgUHMDYvMjAxNR8KBQYyMDE1MDYfCwUYamF2YXNjcmlwdDpyZXR1cm4gZmFsc2U7HwwFMU5vIGV4aXN0ZSBkZWNsYXJhY2nDs24ganVyYWRhIHBhcmEgZXN0ZSBwZXLDrW9kby4fDQICZGQCFw8PFgYfCwUYamF2YXNjcmlwdDpyZXR1cm4gZmFsc2U7HwoFBjIwMTUwNh8FaGRkAhkPDxYCHwVoZGQCAg8VAw1URE5vRGVjbGFyYWRvAABkAgMPDxYCHwVoZBYCZg8VARVUREFwb3J0ZVNTTm9EZWNsYXJhZG9kAgUPZBYEAgEPDxYCHwVoZBYCZg8VARVUREFwb3J0ZVNTTm9EZWNsYXJhZG9kAgMPZBYCZg8VBRVUREFwb3J0ZVNTTm9EZWNsYXJhZG8AFVREQXBvcnRlU1NOb0RlY2xhcmFkbwAAZAIHDw8WAh8FaGQWAmYPFQIWVERBcG9ydGVPU05vRGVjbGFyYWRvRiVTT0xPIENPQkVSVFVSQSBERSBSSUVTR09TIERFTCBUUkFCQUpPZAIJD2QWBAIBDw8WAh8FaGQWAmYPFQEWVERBcG9ydGVPU05vRGVjbGFyYWRvRmQCAw9kFgJmDxUJCnRhYmxlLWNlbGwWVERBcG9ydGVPU05vRGVjbGFyYWRvRgAKdGFibGUtY2VsbBZUREFwb3J0ZU9TTm9EZWNsYXJhZG9GAAExFlREQ29udHJpYk9TTm9EZWNsYXJhZG8AZAILDw8WAh8FaGQWAmYPFQEWVERDb250cmliT1NOb0RlY2xhcmFkb2QCDQ9kFgJmDxUCFlREQ29udHJpYk9TTm9EZWNsYXJhZG8AZAIRDxYCHwVnFgRmD2QWAmYPZBYCAgEPDxYCHwZlZGQCAQ9kFgJmD2QWBAIBDw8WAh8LBVl3aW5kb3cub3BlbignL01pc0Fwb3J0ZXMvYXBwL2NvbnN1bHRhL1NpY2FtL0NvbnN1bHRhU2ljYW0uYXNweCcsICdQYWdvc1NpY2FtJywnJywgZmFsc2UpO2RkAgMPDxYCHwsFVHdpbmRvdy5vcGVuKCcvTWlzQXBvcnRlcy9hcHAvU2VydmljZVRydXN0LmFzcHg/ZHN0PWNjYW0nLCAnY29uc3VsdGFDQ0FNJywnJywgZmFsc2UpO2RkAhMPZBYCZg9kFgJmD2QWBgIDDw9kFgIeB29uY2xpY2sFIyQudW5ibG9ja1VJKCk7cHJpbnQoKTtyZXR1cm4gZmFsc2U7ZAIFDw8WAh8LBSxkb3dubG9hZFVSTCgnSGlzdG9yaWNvL0hpc3Rvcmljb0N1aXQuYXNweCcpO2RkAgcPDxYCHwVoZGQCFQ9kFgJmD2QWAmYPZBYGAgMPD2QWAh8OBSMkLnVuYmxvY2tVSSgpO3ByaW50KCk7cmV0dXJuIGZhbHNlO2QCBQ8PFgIfCwUsZG93bmxvYWRVUkwoJ0hpc3Rvcmljby9IaXN0b3JpY29DdWl0LmFzcHgnKTtkZAIHDw8WAh8FaGRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBTpjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJHJwdFBlcmlvZG9Db25zRnVsbCRjdGwwMSRpbWdJbmZvBTpjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJHJwdFBlcmlvZG9Db25zRnVsbCRjdGwwMiRpbWdJbmZvm/IBjbXjgsFKTsmgOKvZytgwtR0=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./AFIP - Aportes en Línea Tulian Carlos_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var popupWin=null;
+function checkwin() {
+if (popupWin&&!popupWin.closed) {
+  popupWin.focus();
+}
+}
+window.onload = function() { window.name='padre'; }
+window.onclick = function() { checkwin(); }
+window.onfocus = function() { checkwin(); }
+function verBuzon() {
+var ancho = 830;
+var alto = 550;
+var browseWidth, browseHeight;
+if(document.layers||(document.getElementById&&!document.all)){ 
+   browseWidth=window.outerWidth;
+   browseHeight=window.outerHeight;
+} else if(document.all){
+   browseWidth=document.body.clientWidth;
+   browseHeight=document.body.clientHeight;
+}
+var xoffset = window.screenLeft + (browseWidth / 2) - (ancho / 2);
+var yoffset = window.screenTop;
+popupWin = window.open('/MisAportes/app/buzon.aspx?Paso=', 'Buzon', 'resizable=1, scrollbars=1, menubar=0, width=830, height=550, left=' + xoffset + ', top=' + yoffset + '');
+}
+//]]>
+</script>
+
+<script src="./AFIP - Aportes en Línea Tulian Carlos_files/WebResource(1).axd" type="text/javascript"></script>
+<script src="./AFIP - Aportes en Línea Tulian Carlos_files/WebResource(2).axd" type="text/javascript"></script><div style="position:absolute;z-index:9999;visibility:hidden;" id="TTRPrevDiv"><div style="width:100px;height:100px;background-color:#334499">&nbsp;</div></div>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4DC42226">
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0">
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAHGsz+iVWlaYSVhSSRDebOpCzlrm+vJ90qItCYzRJQ60Lj1NdUIdWSF0EN7Xf+tNel+TyH5XnqCIWf9z8lonYEYnoFF4UxK3uQwRaWntOzl6X2T9rSl71WsdVNYFkTrFsj5y/KmxuaJsyHVcCcHdxsjPYNikCw4az2l7GheYffUfQ0/i7BmYsdxtghOhNaHmjgk7w9aNpHDfawQvqoJNmfsdG/gXmk0DW08DAypa5Aw4aM0VWEsdyllzreiNzpJ1rApsaP2SMw06jHUNF6LKT9Ar8LcFnWD42A0vXd0nRvt/X7V7K4N7gNqyvbhb/nemmyagFS0jWcFDcjiIa15eC8cJWAicoO+CvApPEYpA5LUqPWp4BsBmMazEqMmzgRXJyDuSX4weTqbBvQT3MvY3xUS5h7r2c6dEQN/2i2UCZ7/z++Ttl9fXfOsk7Vr/y0LcUIviwvXWSud7OO0vCK0hoGARLPiIU2mGnYaekkInktIDQfeYMmTf7jMjAIPqXGqS4KG6mz2XsXf7X2gE45KHiV2V3d1rLHS/+v3R/lFQ+SLqgQGNh+8W6GewEo7H1CNZzwTgRVumQ8YHvOc2+bFuE/KqaDa2ocI4bBlUPE9bohobSDJDf3u7r07K701HQIGjpyYOmFMmT8ZUEdlTUHUJYOdkowk6HprMaG9p1Lp985PMfUcECzF4826Ty0gEfZ4zd7F5bKCslFYeuhNbcpUFs0jaqD3uImoVy7ZgMGDhLJ8ty1d87bEts8eLJyfxg8lC+oCm0q1asOQxTz0Q048Tz1wvYtoQRECtctCcDpAtsTC7DKLPk7+D9MvQmSvPsLRzpULNYKMoWTbE1H95L0Ejbmfy7+vb77VKexBNmSqGOIYXq/gq3wBW11B8b+alp8iZZFGaltKHspUWN2yfgJtb/150ThnEgdvUCGwY2ElDLKDTSaiAOGFKGX5QKqUyqjxVw6hJl8orGp6hcyn6o2bcRkhlEH7Xzh9tLGzyCicScZrI2r5innqIOsacNGNpIB5dDIN0py6fzqX+60aDHqWQHUQFPGKeFDE1DOPUb12RO5QdP2ZsICCWJzCorxw1q8EeDQrV+PP+sqStRWwgyhOR19KeljHu833pvZ9unYXHGHe+QELUcIlNCq9glVtEBDiNhaT9/9HJ7yu/DNFXpimw8ZiKKnlQhKLtNKxLBnEWBucCeXaG2rb67sLnmvceT0zyh1BfYhp5D633XHUY1K0KlT6rhZLwO9HvYYX4tSKrd9uplSRNjIxbmUhLcS04YCmrTk5DsUonb18DkHdn+en2CIuQ+5yRYmqIppcNIVugquT0fO4+RZyba/7SnkwK+fIM6J9VzOfNLYzDD/UCQishWg0xLxorXg8wBVnEGtpvZoueDqFIDKifEl8tFfuHIFmCP4c5xq4VXhZ9JQaFOBy/dFivi74EalQ6V+go7k7gLtwGCzrAOPDoVcc6EsBqiGUCkMdqmRWc/ldBBGVSygGNNXb3HtTnr8K3ykJ1HnPdcsoPDExlB1X3R5vqkUE7+Q3ZnWxre6h74J0sxh/C7sGwj81ISvaRRlCu3ZemfN6xfvl5PaWG5r6eBdiMlVZOfANYbTf9Lg9Nbqmp53cZbiaqxaglTHI5nvZdwOp4wPmYQMGKAy8P8n/9in42ragVI8Ws4DVysRSdTBwLCCi2Gq6p77DOwrTUN9+JyV8mCPcCt7FYAWyB2swNJTc2KNsVL3WaZMsfDsIOOvdJtYvNu6mJLdv3DDo8VuO9BiJCCzbZdE3mtBRugq937IAoXa/963lHGFlzCcRGJzIcF2sbV9kiW0De/sQb8SP121r7ZX14+D20f8t6uKeVnJ9ifWL+LgRwxGh5CjErVZGPbYoEsUDOtDDh171RksUXffUC0in1Jhr13cnRqTAM0hQGecKZQXGnXVuVTQIeSqjW9xCs6TubCAvdGIM3JS608LV2uEBMz22IGaNaTUEYN56CeeM8zx8MKPhgQF7D4iIwMx/TbFAff93MrNc7cC7NI6X9whhNWkP6bavlT9gKyv+dK/eOd4RaFhHMNrx4myXdf1VcY4tgTzrKD/5reG4oPwn7I4NHalhvsJRIe4/iHrnaLVKazo3j32L95HYN5Ia3ADaUg4QV4GiPKeLAiGqFIeO9rZa7ZJgVUfgoUyDeTwI2JPvmxC1AYcyibdmNt1ern6zKoHweKawgqFMrKg/AG54p5dU2wA00B/fjkW4/b2mndRwoLDYwjhCqRrbzbVJvfU5obCotR7FKBr2jjEBGFfRTObVwd4HrD71A9CUrlK80GYOUsoRwFLhJX4IsWYbZBYVj3eduf11joKHTN+NEhyoaeVNlhJ8sns72JJRDYUfye9WgTyQrbnkQXq7YLOlNhDg2CqKIRGE0WuW6oCer5mFynYQ+BuoNg0QsvX2VSVsKT9AGq4KZHq7ExZc0">
+</div>
+    
+<div class="BotonAyuda_Hover" style="position: absolute; display: block; margin-top: -1000px;">
+</div>
+<div class="Boton_Hover" style="position: absolute; display: block; margin-top: -1000px;">
+</div>
+<div class="BotonArchivoHistorico_Hover" style="position: absolute; display: block;
+    margin-top: -1000px;">
+</div>
+<div class="BotonImprimir_Hover" style="position: absolute; display: block; margin-top: -1000px;">
+</div>
+<div class="BotonFinalizar_Hover" style="position: absolute; display: block; margin-top: -1000px;">
+</div>
+<!-- --------------------------------------------------------------------------------------------------------- -->
+
+    <map id="ctl00_MapaHome" name="mapalogin">
+        <area id="ctl00_areaHome" shape="rect" coords="5,6,180,60" alt="Home" href="https://serviciossegsoc.afip.gob.ar/misaportes/app/index.aspx" onmouseover="TTR_ShowPreview(&#39;ctl00_areaHome_ToolTip&#39;);" onmouseout="TTR_HidePreview();">
+        <area id="ctl00_areaBuzon" shape="rect" coords="570,6,800,60" alt="Buzón" href="javascript:verBuzon();; $.unblockUI();" onmouseover="TTR_ShowPreview(&#39;ctl00_areaBuzon_ToolTip&#39;);" onmouseout="TTR_HidePreview();">
+    </map>
+    <div id="ctl00_areaHome_ToolTip" style="position:absolute;visibility:hidden;">
+            <div class="ToolTipRapido">
+                Ir a la pantalla principal
+            </div>
+        </div>
+    <div id="ctl00_areaBuzon_ToolTip" style="position:absolute;visibility:hidden;">
+            <div class="ToolTipRapido">
+                Ir a <b>buzón de observaciones</b>
+            </div>
+        </div>
+    <div id="ctl00_spanAyuda_ToolTip" style="position:absolute;visibility:hidden;">
+            <div class="ToolTipRapido">
+                Consultar la <b>ayuda en línea</b>
+            </div>
+        </div>
+    <table class="TablaGeneral" cellpadding="0px" cellspacing="0px" style="margin: auto;" role="presentation">
+        <thead role="presentation">
+            <tr role="presentation">
+                <td style="padding: 0px 0px 0px 0px;" role="presentation">
+                    <img id="ctl00_imageHeader" class="TdHeader" usemap="#mapalogin" src="./AFIP - Aportes en Línea Tulian Carlos_files/header_r1_c1_buzon.jpg" alt="AFIP - Aportes en Línea" style="height:65px;width:800px;border-width:0px;">
+                </td>
+            </tr>
+            <tr role="presentation">
+                <td role="presentation">
+                    <div style="vertical-align: top; padding: 0; float: left; border-bottom: solid 1px #E0E0E0;
+                        padding-bottom: 2px;">
+                        <div style="float: left; display: inline; width: 520px; vertical-align: top;">
+                            <img id="ctl00_image1" src="./AFIP - Aportes en Línea Tulian Carlos_files/header_r2_c1.jpg" alt="separador" style="border-width:0px;height:11px;width:100%;">
+                            
+                            <div id="ctl00_dataPersona">
+	
+                                <div style="float: left; padding-left: 3px; text-align: left; width: 100%;">
+                                    <div style="height: 16px;">
+                                        <div style="float: left; width: 150px;">
+                                            <img id="ctl00_imgApeNom" src="./AFIP - Aportes en Línea Tulian Carlos_files/header-bullet.gif" alt="viñeta" style="border-width:0px;height:10px;width:9px;">
+                                            <span id="ctl00_lblTitApeNom" class="HeaderTipoDato">Apellido y Nombre:&nbsp;</span>
+                                        </div>
+                                        <div style="float: left; width: 55%;">
+                                            <span id="ctl00_lblApeNom" class="HeaderDato">TULIAN CARLOS</span>
+                                        </div>
+                                        <div style="clear: both;">
+                                        </div>
+                                    </div>
+                                    <div style="height: 16px;">
+                                        <div style="float: left; width: 150px;">
+                                            <img id="ctl00_imgCuil" src="./AFIP - Aportes en Línea Tulian Carlos_files/header-bullet.gif" alt="viñeta" style="border-width:0px;height:10px;width:9px;">
+                                            <span id="ctl00_lblTitCuil" class="HeaderTipoDato">CUIL: </span>
+                                            
+                                        </div>
+                                        <div style="float: left; width: 55%;">
+                                            <span id="ctl00_lblCUIL" class="HeaderDato">20-30659211-5</span>
+                                        </div>
+                                        <div style="clear: both;">
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="ctl00_divEmpleadorSeleccionado" style="height: 16px;">
+                                        <div style="float: left; width: 150px;">
+                                            <img id="ctl00_imgEmpleador" src="./AFIP - Aportes en Línea Tulian Carlos_files/header-bullet.gif" alt="viñeta" style="border-width:0px;height:10px;width:9px;">
+                                            <span id="ctl00_lblTitEmpleador" class="HeaderTipoDato">Empleador:&nbsp;</span>
+                                        </div>
+                                        <div style="float: left; width: 55%;">
+                                            <span id="ctl00_lblEmpleadorRazonSocial" class="HeaderDato">DISTRIBUIDORA ARMADA ARGENTINA S.R.L.</span>
+                                        </div>
+                                        <div style="clear: both;">
+                                        </div>
+                                    </div>
+                                    <div id="ctl00_divEmpleadorSeleccionado2" style="height: 16px;">
+                                        <div style="float: left; width: 150px;">
+                                            <img id="ctl00_Image2" src="./AFIP - Aportes en Línea Tulian Carlos_files/header-bullet.gif" alt="viñeta" style="border-width:0px;height:10px;width:9px;">
+                                            <span id="ctl00_Label1" class="HeaderTipoDato">CUIT:&nbsp;</span>
+                                        </div>
+                                        <div style="float: left; width: 55%;">
+                                            <span id="ctl00_lblEmpleadorCuil" class="HeaderDato">33-71445107-9</span>
+                                        </div>
+                                        <div style="clear: both;">
+                                        </div>
+                                    </div>
+                                </div>
+                            
+</div>
+                        </div>
+                        <div style="float: left; display: inline; width: 280px; vertical-align: top;">
+                            <div style="float: left; display: inline; width: 230px;">
+                                <img id="ctl00_image5" src="./AFIP - Aportes en Línea Tulian Carlos_files/header_r2_c4.jpg" alt="separador" style="border-width:0px;height:50px;width:230px;">
+                                <div style="float: right; position: relative; top: -35px;">
+                                    <img id="ctl00_Image6" src="./AFIP - Aportes en Línea Tulian Carlos_files/header-bullet.gif" alt="viñeta" style="border-width:0px;height:9px;width:9px;">
+                                    <a onclick="window.close();" id="ctl00_btnCerrarSesion" class="CerrarSesion" href="javascript:__doPostBack(&#39;ctl00$btnCerrarSesion&#39;,&#39;&#39;)" style="display:inline-block;border-width:0px;font-size:11px;text-decoration:none;">Cerrar Sesión</a>
+                                </div>
+                                <div style="float: right; position: relative; top: -30px; width: 100%; text-align: right;">
+                                    <span id="ctl00_FechaHoy1_lblFechaHoy" class="FechaHoyLabel">lunes, 09 de septiembre 2024 - 18:50:14</span>
+                                </div>
+                            </div>
+                            <div style="float: right; display: inline;">
+                                <input type="submit" name="ctl00$btnAyuda" value="" onclick="this.disabled=true;__doPostBack(&#39;ctl00$btnAyuda&#39;,&#39;&#39;);" id="ctl00_btnAyuda" class="BotonAyuda" onmouseover="this.className=&#39;BotonAyuda_Hover&#39;;" onmouseout="this.className=&#39;BotonAyuda&#39;;">
+                            </div>
+                            <div style="float: right; text-align: right; width: 200px;">
+                                <div style="height: 16px;">
+                                    &nbsp;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </thead>
+        <tbody role="presentation">
+            <tr role="presentation">
+                <td style="margin: 0 auto; text-align: center; border: 0px;" valign="top" role="presentation">
+                    <span id="bodyLayer">
+                        
+
+    <script type="text/javascript">
+    $(document).on("ready", function(){
+        blinkeffect('.blinkText');
+    })
+    
+    function blinkeffect(selector) {
+        $(selector).fadeTo( 'slow', 0.7, function() {
+            $(this).fadeTo('slow', 1, function() {
+                blinkeffect(this);
+            });
+        });
+    }
+
+    </script>
+
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$hCuit" id="ctl00_ContentPlaceHolder1_hCuit" value="33714451079">
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$hRazSoc" id="ctl00_ContentPlaceHolder1_hRazSoc" value="DISTRIBUIDORA ARMADA ARGENTINA S.R.L.">
+    
+    <table id="ctl00_ContentPlaceHolder1_tbEmpleador" style="width: 95%; margin: auto;" summary="Resumen de Empleador y Periodos Solicitados">
+	<tbody><tr>
+		<td colspan="11" style="height: 14px; text-align: left;">
+                    
+                </td>
+	</tr>
+</tbody></table>
+
+    <h2>
+        RESUMEN  DE  SITUACIÓN  PREVISIONAL  DESDE  EL <span class="periodo">12/2023</span> AL <span class="periodo">08/2024</span>
+        <hr>
+    </h2>
+    <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_Panel1">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_pnlAD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_NoSOLOLRT">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_pnlOSD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_Panel2">
+	
+                    </div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Panel1">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_pnlAD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_NoSOLOLRT">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_pnlOSD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Panel2">
+	
+                    </div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl03_Panel1">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl03_pnlAD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl03_NoSOLOLRT">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl03_pnlOSD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl03_Panel2">
+	
+                    </div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl04_Panel1">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl04_pnlAD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl04_NoSOLOLRT">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl04_pnlOSD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl04_Panel2">
+	
+                    </div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl05_Panel1">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl05_pnlAD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl05_NoSOLOLRT">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl05_pnlOSD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl05_Panel2">
+	
+                    </div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl06_Panel1">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl06_pnlAD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl06_NoSOLOLRT">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl06_pnlOSD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl06_Panel2">
+	
+                    </div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl07_Panel1">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl07_pnlAD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl07_NoSOLOLRT">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl07_pnlOSD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl07_Panel2">
+	
+                    </div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl08_Panel1">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl08_pnlAD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl08_NoSOLOLRT">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl08_pnlOSD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl08_Panel2">
+	
+                    </div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl09_Panel1">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl09_pnlAD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl09_NoSOLOLRT">
+	
+                        
+                        <div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl09_pnlOSD">
+		
+                            </div></div><div id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl09_Panel2">
+	
+                    </div><table cellpadding="0" style="width: 95%; margin: auto; padding-left: 1px; border-collapse: collapse;
+        border: solid 1px #AAAAAA;" summary="Resumen de la situación previsional para los periodos solicitados">
+        
+                <thead>
+                    <tr>
+                        <th style="width: 10%;" rowspan="2">
+                            Período
+                        </th>
+                        <th rowspan="2">
+                            Remuneración total bruta
+                        </th>
+                        <td rowspan="2">
+                            &nbsp;
+                        </td>
+                        <th colspan="2" id="he_ApSS">
+                            Aportes de<br>
+                            seguridad social
+                        </th>
+                        <td rowspan="2">
+                            &nbsp;
+                        </td>
+                        <th colspan="3" id="he_ApOS">
+                            Aportes de obra social
+                        </th>
+                        <td rowspan="2">
+                            &nbsp;
+                        </td>
+                        <th rowspan="2" id="he_CoOS">
+                            Contribución patronal<br>
+                            de obra social
+                        </th>
+                    </tr>
+                    <tr>
+                        <th id="he_ApSS_cl">
+                            Declarado
+                        </th>
+                        <th id="he_ApSS_dp">
+                            Depositado
+                        </th>
+                        <th id="he_ApOS_cl">
+                            Declarado
+                        </th>
+                        <th id="he_ApOS_dp">
+                            Depositado
+                        </th>
+                        <th style="width: 22%;" id="he_Coos_os">
+                            Obra social de destino
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            
+                <tbody><tr class="">
+                    <td class="TDPeriodoGeneral">
+                        <table id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_tbPeriodo" cellspacing="4" role="presentation">
+	<tbody>
+        <tr>
+		<td>
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl01$Periodo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_Periodo" value="201410">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl01$Numoble" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_Numoble" value="210163515">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl01$Secoblig" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_Secoblig" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl01$SecNom" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_SecNom" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl01$sijp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_sijp" value="G">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl01$idddjj" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_idddjj" value="527108846">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl01$Mrcvis" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_Mrcvis" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl01$Mrcmult" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_Mrcmult">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl01$Mrccuitesp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_Mrccuitesp" value="0">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl01$FormAFIP" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_FormAFIP" value="931">
+                                    <div style="float: left;">
+                                        <a onclick="javascript:return true;" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_LinkButton1" title="Ver detalle del período." class="TDPeriodoUnderLine" role="navigation" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl01$LinkButton1&#39;,&#39;&#39;)">12/2023</a>
+                                    </div>
+                                    <div class="tdinfo">
+                                        <input type="image" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl01$imgInfo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl01_imgInfo" src="./AFIP - Aportes en Línea Tulian Carlos_files/info.gif" alt="Información del Período" onclick="javascript:return true;" style="border-width:0px;margin: 3 3 3 3; padding: 3px;">
+                                        
+                                    </div>
+                                </td>
+	</tr>
+</tbody></table>
+
+                    </td>
+                    <td class="TDConRemBruta" title="">
+                        1.025.885,00
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td class="TDAporteSSPago">
+                                112847,35
+                            </td>
+                            <td class="TDAporteSSPago">
+                                &nbsp;112847,35
+                            </td>
+                        
+	
+                    
+
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td style="display: table-cell" class="TDAporteOSPagoF">
+                                30776,55
+                            </td>
+                            <td style="display: table-cell" class="TDAporteOSPagoF">
+                                30776,55
+                            </td>
+                            <td colspan="1" class="TDGuion">
+                                OS EMPL. COMERCIO Y ACT. CIVILES (1262)
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                        
+	
+                    
+
+                    
+                    <td class="TDContribOSPago" headers="he_CoOS he_CoOS_os">
+                        PAGO
+                    </td>
+                    
+
+                </tr>
+            
+                <tr class="">
+                    <td class="TDPeriodoGeneral">
+                        <table id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_tbPeriodo" cellspacing="4" role="presentation">
+	<tbody><tr>
+		<td>
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Periodo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Periodo" value="201411">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Numoble" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Numoble" value="210710323">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Secoblig" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Secoblig" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$SecNom" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_SecNom" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$sijp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_sijp" value="G">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$idddjj" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_idddjj" value="527827120">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcvis" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcvis" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcmult" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcmult">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrccuitesp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrccuitesp" value="0">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$FormAFIP" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_FormAFIP" value="931">
+                                    <div style="float: left;">
+                                        <a onclick="javascript:return true;" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_LinkButton1" title="Ver detalle del período." class="TDPeriodoUnderLine" role="navigation" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$LinkButton1&#39;,&#39;&#39;)">01/2024</a>
+                                    </div>
+                                    <div class="tdinfo">
+                                        <input type="image" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$imgInfo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_imgInfo" src="./AFIP - Aportes en Línea Tulian Carlos_files/info.gif" alt="Información del Período" onclick="javascript:return true;" style="border-width:0px;margin: 3 3 3 3; padding: 3px;">
+                                        
+                                    </div>
+                                </td>
+	</tr>
+</tbody></table>
+
+                    </td>
+                    <td class="TDConRemBruta" title="">
+                        1.113.750,00
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td class="TDAporteSSPago">
+                                176.391,60
+                            </td>
+                            <td class="TDAporteSSPago">
+                                &nbsp;176.391,60
+                            </td>
+                        
+	
+                    
+
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td style="display: table-cell" class="TDAporteOSPagoF">
+                                48106,80
+                            </td>
+                            <td style="display: table-cell" class="TDAporteOSPagoF">
+                                48106,80
+                            </td>
+                            <td colspan="1" class="TDGuion">
+                                OS EMPL. COMERCIO Y ACT. CIVILES (1262)
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                        
+	
+                    
+
+                    
+                    <td class="TDContribOSPago" headers="he_CoOS he_CoOS_os">
+                        PAGO
+                    </td>
+                    
+
+                </tr>
+            
+                <tr class="">
+                    <td class="TDPeriodoGeneral">
+                        <table id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_tbPeriodo" cellspacing="4" role="presentation">
+	<tbody><tr>
+		<td>
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Periodo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Periodo" value="201411">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Numoble" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Numoble" value="210710323">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Secoblig" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Secoblig" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$SecNom" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_SecNom" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$sijp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_sijp" value="G">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$idddjj" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_idddjj" value="527827120">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcvis" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcvis" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcmult" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcmult">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrccuitesp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrccuitesp" value="0">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$FormAFIP" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_FormAFIP" value="931">
+                                    <div style="float: left;">
+                                        <a onclick="javascript:return true;" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_LinkButton1" title="Ver detalle del período." class="TDPeriodoUnderLine" role="navigation" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$LinkButton1','')">02/2024</a>
+                                    </div>
+                                    <div class="tdinfo">
+                                        <input type="image" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$imgInfo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_imgInfo" src="./AFIP - Aportes en Línea Tulian Carlos_files/info.gif" alt="Información del Período" onclick="javascript:return true;" style="border-width:0px;margin: 3 3 3 3; padding: 3px;">
+                                        
+                                    </div>
+                                </td>
+	</tr>
+</tbody></table>
+
+                    </td>
+                    <td class="TDConRemBruta" title="">
+                        1.113.750,00
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td class="TDReferenciaImpago">
+                                176.391,60
+                            </td>
+                            <td class="TDReferenciaImpago">
+                                &nbsp;176.391,60
+                            </td>
+                        
+	
+                    
+
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td style="display: table-cell" class="TDReferenciaImpago">
+                                48106,80
+                            </td>
+                            <td style="display: table-cell" class="TDReferenciaImpago">
+                                48106,80
+                            </td>
+                            <td colspan="1" class="TDGuion">
+                                OS EMPL. COMERCIO Y ACT. CIVILES (1262)
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                        
+	
+                    
+
+                    
+                    <td class="TDReferenciaImpago" headers="he_CoOS he_CoOS_os">
+                        IMPAGO
+                    </td>
+                    
+
+                </tr>
+                <tr class=""></tr>
+                    <td class="TDPeriodoGeneral">
+                        <table id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_tbPeriodo" cellspacing="4" role="presentation">
+	<tbody><tr>
+		<td>
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Periodo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Periodo" value="201411">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Numoble" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Numoble" value="210710323">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Secoblig" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Secoblig" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$SecNom" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_SecNom" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$sijp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_sijp" value="G">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$idddjj" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_idddjj" value="527827120">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcvis" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcvis" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcmult" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcmult">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrccuitesp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrccuitesp" value="0">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$FormAFIP" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_FormAFIP" value="931">
+                                    <div style="float: left;">
+                                        <a onclick="javascript:return true;" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_LinkButton1" title="Ver detalle del período." class="TDPeriodoUnderLine" role="navigation" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$LinkButton1','')">03/2024</a>
+                                    </div>
+                                    <div class="tdinfo">
+                                        <input type="image" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$imgInfo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_imgInfo" src="./AFIP - Aportes en Línea Tulian Carlos_files/info.gif" alt="Información del Período" onclick="javascript:return true;" style="border-width:0px;margin: 3 3 3 3; padding: 3px;">
+                                        
+                                    </div>
+                                </td>
+	</tr>
+</tbody></table>
+
+                    </td>
+                    <td class="TDConRemBruta" title="">
+                        1.603.560,00
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td class="TDReferenciaImpago">
+                                176.391,60
+                            </td>
+                            <td class="TDReferenciaImpago">
+                                &nbsp;176.391,60
+                            </td>
+                        
+	
+                    
+
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td style="display: table-cell" class="TDReferenciaImpago">
+                                48106,80
+                            </td>
+                            <td style="display: table-cell" class="TDReferenciaImpago">
+                                48106,80
+                            </td>
+                            <td colspan="1" class="TDGuion">
+                                OS EMPL. COMERCIO Y ACT. CIVILES (1262)
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                        
+	
+                    
+
+                    
+                    <td class="TDReferenciaImpago" headers="he_CoOS he_CoOS_os">
+                        IMPAGO
+                    </td>
+                    
+
+                </tr>
+            
+                <tr class="">
+                    <td class="TDPeriodoGeneral">
+                        <table id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_tbPeriodo" cellspacing="4" role="presentation">
+	<tbody><tr>
+		<td>
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Periodo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Periodo" value="201411">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Numoble" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Numoble" value="210710323">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Secoblig" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Secoblig" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$SecNom" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_SecNom" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$sijp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_sijp" value="G">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$idddjj" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_idddjj" value="527827120">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcvis" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcvis" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcmult" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcmult">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrccuitesp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrccuitesp" value="0">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$FormAFIP" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_FormAFIP" value="931">
+                                    <div style="float: left;">
+                                        <a onclick="javascript:return true;" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_LinkButton1" title="Ver detalle del período." class="TDPeriodoUnderLine" role="navigation" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$LinkButton1','')">04/2024</a>
+                                    </div>
+                                    <div class="tdinfo">
+                                        <input type="image" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$imgInfo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_imgInfo" src="./AFIP - Aportes en Línea Tulian Carlos_files/info.gif" alt="Información del Período" onclick="javascript:return true;" style="border-width:0px;margin: 3 3 3 3; padding: 3px;">
+                                        
+                                    </div>
+                                </td>
+	</tr>
+</tbody></table>
+
+                    </td>
+                    <td class="TDConRemBruta" title="">
+                        1.443.630,00
+
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td class="TDAporteSSPago">
+                        158.799,30
+
+                            </td>
+                            <td class="TDAporteSSPago">
+                                &nbsp;158.799,30
+
+                            </td>
+                        
+	
+                    
+
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td style="display: table-cell" class="TDAporteOSPagoF">
+                        43308,90
+
+                            </td>
+                            <td style="display: table-cell" class="TDAporteOSPagoF">
+                                43308,90
+
+                            </td>
+                            <td colspan="1" class="TDGuion">
+                                OS EMPL. COMERCIO Y ACT. CIVILES (1262)
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                        
+	
+                    
+
+                    
+                    <td class="TDContribOSPago" headers="he_CoOS he_CoOS_os">
+                        PAGO
+                    </td>
+                    
+
+                </tr>
+
+                <tr class="">
+                    <td class="TDPeriodoGeneral">
+                        <table id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_tbPeriodo" cellspacing="4" role="presentation">
+	<tbody><tr>
+		<td>
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Periodo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Periodo" value="201411">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Numoble" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Numoble" value="210710323">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Secoblig" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Secoblig" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$SecNom" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_SecNom" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$sijp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_sijp" value="G">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$idddjj" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_idddjj" value="527827120">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcvis" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcvis" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcmult" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcmult">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrccuitesp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrccuitesp" value="0">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$FormAFIP" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_FormAFIP" value="931">
+                                    <div style="float: left;">
+                                        <a onclick="javascript:return true;" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_LinkButton1" title="Ver detalle del período." class="TDPeriodoUnderLine" role="navigation" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$LinkButton1','')">05/2024</a>
+                                    </div>
+                                    <div class="tdinfo">
+                                        <input type="image" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$imgInfo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_imgInfo" src="./AFIP - Aportes en Línea Tulian Carlos_files/info.gif" alt="Información del Período" onclick="javascript:return true;" style="border-width:0px;margin: 3 3 3 3; padding: 3px;">
+                                        
+                                    </div>
+                                </td>
+	</tr>
+</tbody></table>
+
+                    </td>
+                    <td class="TDConRemBruta" title="">
+                        1.603.560,00
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td class="TDAporteSSPago">
+                                176.391,60
+                            </td>
+                            <td class="TDAporteSSPago">
+                                &nbsp;176.391,60
+                            </td>
+                        
+	
+                    
+
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td style="display: table-cell" class="TDAporteOSPagoF">
+                                48106,80
+                            </td>
+                            <td style="display: table-cell" class="TDAporteOSPagoF">
+                                48106,80
+                            </td>
+                            <td colspan="1" class="TDGuion">
+                                OS EMPL. COMERCIO Y ACT. CIVILES (1262)
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                        
+	
+                    
+
+                    
+                    <td class="TDContribOSPago" headers="he_CoOS he_CoOS_os">
+                        PAGO
+                    </td>
+                    
+
+                </tr>
+
+                <tr class="">
+                    <td class="TDPeriodoGeneral">
+                        <table id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_tbPeriodo" cellspacing="4" role="presentation">
+	<tbody><tr>
+		<td>
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Periodo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Periodo" value="201411">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Numoble" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Numoble" value="210710323">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Secoblig" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Secoblig" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$SecNom" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_SecNom" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$sijp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_sijp" value="G">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$idddjj" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_idddjj" value="527827120">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcvis" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcvis" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcmult" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcmult">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrccuitesp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrccuitesp" value="0">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$FormAFIP" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_FormAFIP" value="931">
+                                    <div style="float: left;">
+                                        <a onclick="javascript:return true;" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_LinkButton1" title="Ver detalle del período." class="TDPeriodoUnderLine" role="navigation" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$LinkButton1','')">06/2024</a>
+                                    </div>
+                                    <div class="tdinfo">
+                                        <input type="image" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$imgInfo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_imgInfo" src="./AFIP - Aportes en Línea Tulian Carlos_files/info.gif" alt="Información del Período" onclick="javascript:return true;" style="border-width:0px;margin: 3 3 3 3; padding: 3px;">
+                                        
+                                    </div>
+                                </td>
+	</tr>
+</tbody></table>
+
+                    </td>
+                    <td class="TDConRemBruta" title="">
+                        1.813.755,00
+
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td class="TDAporteSSPago">
+                        199.513,05
+
+                            </td>
+                            <td class="TDAporteSSPago">
+                                &nbsp;199.513,05
+
+                            </td>
+                        
+	
+                    
+
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td style="display: table-cell" class="TDAporteOSPagoF">
+                        54412,65
+
+                            </td>
+                            <td style="display: table-cell" class="TDAporteOSPagoF">
+                                54412,65
+
+                            </td>
+                            <td colspan="1" class="TDGuion">
+                                OS EMPL. COMERCIO Y ACT. CIVILES (1262)
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                        
+	
+                    
+
+                    
+                    <td class="TDContribOSPago" headers="he_CoOS he_CoOS_os">
+                        PAGO
+                    </td>
+                    
+
+                </tr>
+
+                <tr class="">
+                    <td class="TDPeriodoGeneral">
+                        <table id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_tbPeriodo" cellspacing="4" role="presentation">
+	<tbody><tr>
+		<td>
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Periodo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Periodo" value="201411">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Numoble" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Numoble" value="210710323">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Secoblig" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Secoblig" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$SecNom" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_SecNom" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$sijp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_sijp" value="G">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$idddjj" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_idddjj" value="527827120">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcvis" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcvis" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcmult" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcmult">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrccuitesp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrccuitesp" value="0">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$FormAFIP" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_FormAFIP" value="931">
+                                    <div style="float: left;">
+                                        <a onclick="javascript:return true;" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_LinkButton1" title="Ver detalle del período." class="TDPeriodoUnderLine" role="navigation" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$LinkButton1','')">07/2024</a>
+                                    </div>
+                                    <div class="tdinfo">
+                                        <input type="image" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$imgInfo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_imgInfo" src="./AFIP - Aportes en Línea Tulian Carlos_files/info.gif" alt="Información del Período" onclick="javascript:return true;" style="border-width:0px;margin: 3 3 3 3; padding: 3px;">
+                                        
+                                    </div>
+                                </td>
+	</tr>
+</tbody></table>
+
+                    </td>
+                    <td class="TDConRemBruta" title="">
+                        1.782.555,00
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td class="TDReferenciaImpago">
+                        196.081,05
+
+                            </td>
+                            <td class="TDReferenciaImpago">
+                                &nbsp;196.081,05
+
+                            </td>
+                        
+	
+                    
+
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td style="display: table-cell" class="TDReferenciaImpago">
+                        53476,65
+
+                            </td>
+                            <td style="display: table-cell" class="TDReferenciaImpago">
+                                53476,65
+
+                            </td>
+                            <td colspan="1" class="TDGuion">
+                                OS EMPL. COMERCIO Y ACT. CIVILES (1262)
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                        
+	
+                    
+
+                    
+                    <td class="TDReferenciaImpago" headers="he_CoOS he_CoOS_os">
+                        IMPAGO
+                    </td>
+                    
+
+                </tr>
+
+                <tr class="">
+                    <td class="TDPeriodoGeneral">
+                        <table id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_tbPeriodo" cellspacing="4" role="presentation">
+	<tbody><tr>
+		<td>
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Periodo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Periodo" value="201411">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Numoble" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Numoble" value="210710323">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Secoblig" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Secoblig" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$SecNom" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_SecNom" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$sijp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_sijp" value="G">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$idddjj" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_idddjj" value="527827120">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcvis" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcvis" value="1">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrcmult" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrcmult">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$Mrccuitesp" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_Mrccuitesp" value="0">
+                                    <input type="hidden" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$FormAFIP" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_FormAFIP" value="931">
+                                    <div style="float: left;">
+                                        <a onclick="javascript:return true;" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_LinkButton1" title="Ver detalle del período." class="TDPeriodoUnderLine" role="navigation" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$LinkButton1','')">08/2024</a>
+                                    </div>
+                                    <div class="tdinfo">
+                                        <input type="image" name="ctl00$ContentPlaceHolder1$rptPeriodoConsFull$ctl02$imgInfo" id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl02_imgInfo" src="./AFIP - Aportes en Línea Tulian Carlos_files/info.gif" alt="Información del Período" onclick="javascript:return true;" style="border-width:0px;margin: 3 3 3 3; padding: 3px;">
+                                        
+                                    </div>
+                                </td>
+	</tr>
+</tbody></table>
+
+                    </td>
+                    <td class="TDConRemBruta" title="">
+                        1.782.555,00
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td class="TDReferenciaImpago">
+                        196.081,05
+
+                            </td>
+                            <td class="TDReferenciaImpago">
+                                &nbsp;196.081,05
+
+                            </td>
+                        
+	
+                    
+
+                    <td>
+                        &nbsp;
+                    </td>
+                    
+                    <td style="display: table-cell" class="TDReferenciaImpago">
+                        53476,65
+
+                            </td>
+                            <td style="display: table-cell" class="TDReferenciaImpago">
+                                53476,65
+
+                            </td>
+                            <td colspan="1" class="TDGuion">
+                                OS EMPL. COMERCIO Y ACT. CIVILES (1262)
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                        
+	
+                    
+
+                    
+                    <td class="TDReferenciaImpago" headers="he_CoOS he_CoOS_os">
+                        IMPAGO
+                    </td>
+                    
+
+                </tr>
+            
+                </tbody> </table>
+                <br>
+                <table cellpadding="0" style="width: 98%; margin: auto; padding-left: 1px; border-collapse: collapse;" class="tablaReferencia">
+                    <tbody><tr>
+                        <td style="width: 60px; text-indent: 15px;">
+                            Referencias:
+                        </td>
+                        <td class="TDReferenciaPago">
+                        </td>
+                        <td style="width: 80px; text-align: left;">
+                            Pago
+                        </td>
+                        <td class="TDReferenciaPagoParcial">
+                        </td>
+                        <td style="width: 80px; text-align: left;">
+                            Pago parcial
+                        </td>
+                        <td class="TDReferenciaImpago">
+                        </td>
+                        <td style="width: 80px; text-align: left;">
+                            Impago
+                        </td>
+                        <td class="TDReferenciaNoDeclarado">
+                        </td>
+                        <td style="width: 80px; text-align: left;">
+                            Sin información
+                        </td>
+                        <td class="TDInformacion">
+                            <img id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl10_imgInfo" src="./AFIP - Aportes en Línea Tulian Carlos_files/info.gif" alt="Informacion" style="border-width:0px;">
+                        </td>
+                        <td style="width: 80px; text-align: left;">
+                            Más información
+                        </td>
+                        <td class="TDInformacion">
+                            <img id="ctl00_ContentPlaceHolder1_rptPeriodoConsFull_ctl10_Image1" src="./AFIP - Aportes en Línea Tulian Carlos_files/adeafip.ico" alt="Declarado de Oficio por AFIP" style="border-width:0px;">
+                        </td>
+                        <td style="width: 80px; text-align: left;">
+                            Declarado de Oficio por AFIP
+                        </td>
+                    </tr>
+            
+    </tbody></table>
+    <div id="ctl00_ContentPlaceHolder1_trRemunConSac" style="margin: auto;">
+        (*) La remuneración bruta puede incluir el sueldo anual complementario (SAC)
+    </div>
+    
+    <br>
+    <table id="ctl00_ContentPlaceHolder1_tbPagosSicam" width="100%" class="Botonera">
+	<tbody><tr style="height: 1px" align="left">
+		<td colspan="3">
+                <span id="ctl00_ContentPlaceHolder1_lblDescMoratoria"></span>
+            </td>
+	</tr>
+	<tr align="center">
+		<td style="padding-top: 10px; width: 100%;" colspan="3">
+                <input type="submit" name="ctl00$ContentPlaceHolder1$btnPagosSicam" value="Ver Pagos SICAM" onclick="window.open(&#39;/MisAportes/app/consulta/Sicam/ConsultaSicam.aspx&#39;, &#39;PagosSicam&#39;,&#39;&#39;, false);this.className=&#39;BotonDisabled&#39;;this.value=&#39;Procesando...&#39;;this.disabled=true;__doPostBack(&#39;ctl00$ContentPlaceHolder1$btnPagosSicam&#39;,&#39;&#39;);" id="ctl00_ContentPlaceHolder1_btnPagosSicam" class="Boton" onmouseover="this.className=&#39;Boton_Hover&#39;;" onmouseout="this.className=&#39;Boton&#39;;">
+                &nbsp;
+                <input type="submit" name="ctl00$ContentPlaceHolder1$btnCCAM" value="CCAM" onclick="window.open(&#39;/MisAportes/app/ServiceTrust.aspx?dst=ccam&#39;, &#39;consultaCCAM&#39;,&#39;&#39;, false);this.className=&#39;BotonDisabled&#39;;this.value=&#39;Procesando...&#39;;this.disabled=true;__doPostBack(&#39;ctl00$ContentPlaceHolder1$btnCCAM&#39;,&#39;&#39;);" id="ctl00_ContentPlaceHolder1_btnCCAM" title="Vea la cuenta corriente de monotributista y autónomo." class="Boton" onmouseover="this.className=&#39;Boton_Hover&#39;;" onmouseout="this.className=&#39;Boton&#39;;">
+            </td>
+	</tr>
+</tbody></table>
+
+    <br>
+    <table id="ctl00_ContentPlaceHolder1_tbBotonSimple" width="100%" class="Botonera">
+	<tbody><tr align="center">
+		<td>
+                <input type="submit" name="ctl00$ContentPlaceHolder1$btnAsociarTelefono" value="Asociar Teléfono" onclick="this.className=&#39;BotonDisabled&#39;;this.value=&#39;Procesando...&#39;;this.disabled=true;__doPostBack(&#39;ctl00$ContentPlaceHolder1$btnAsociarTelefono&#39;,&#39;&#39;);" id="ctl00_ContentPlaceHolder1_btnAsociarTelefono" title="Sr. Trabajador: Registre su Teléfono móvil y recibirá un SMS con la información del pago mensual de sus Aportes realizados por su/s Empleador/es." class="BotonSMS blinkText" onmouseover="this.className=&#39;BotonSMS_Hover&#39;;" onmouseout="this.className=&#39;BotonSMS blinkText&#39;;" style="opacity: 0.842934;">
+                &nbsp;
+                <input type="submit" name="ctl00$ContentPlaceHolder1$BtnImprimir" value="Imprimir" onclick="this.className=&#39;BotonDisabled&#39;;this.value=&#39;Procesando...&#39;;this.disabled=true;__doPostBack(&#39;ctl00$ContentPlaceHolder1$BtnImprimir&#39;,&#39;&#39;);$.unblockUI();print();return false;" id="ctl00_ContentPlaceHolder1_BtnImprimir" class="BotonImprimir" onmouseover="this.className=&#39;BotonImprimir_Hover&#39;;" onmouseout="this.className=&#39;BotonImprimir&#39;;">
+                &nbsp;
+                <input type="submit" name="ctl00$ContentPlaceHolder1$BtnArchivoHistorico2" value="Archivo Histórico" onclick="downloadURL(&#39;Historico/HistoricoCuit.aspx&#39;);this.className=&#39;BotonDisabled&#39;;this.value=&#39;Procesando...&#39;;this.disabled=true;__doPostBack(&#39;ctl00$ContentPlaceHolder1$BtnArchivoHistorico2&#39;,&#39;&#39;);" id="ctl00_ContentPlaceHolder1_BtnArchivoHistorico2" title="Genera archivo con información histórica del EMPLEADOR que está visualizando." class="BotonArchivoHistorico" onmouseover="this.className=&#39;BotonArchivoHistorico_Hover&#39;;" onmouseout="this.className=&#39;BotonArchivoHistorico&#39;;">
+                &nbsp;
+                
+                &nbsp;
+                <input type="submit" name="ctl00$ContentPlaceHolder1$BtnVolver" value="VOLVER" onclick="this.className=&#39;BotonDisabled&#39;;this.value=&#39;Procesando...&#39;;this.disabled=true;__doPostBack(&#39;ctl00$ContentPlaceHolder1$BtnVolver&#39;,&#39;&#39;);" id="ctl00_ContentPlaceHolder1_BtnVolver" class="Boton" onmouseover="this.className=&#39;Boton_Hover&#39;;" onmouseout="this.className=&#39;Boton&#39;;">
+            </td>
+	</tr>
+</tbody></table>
+
+    
+    <hr class="sep sep2">
+    <br>
+    <div style="margin: auto;">
+        <input type="submit" name="ctl00$ContentPlaceHolder1$BtnFinalizar" value="Finalizar" onclick="this.className=&#39;BotonDisabled&#39;;this.value=&#39;Procesando...&#39;;this.disabled=true;__doPostBack(&#39;ctl00$ContentPlaceHolder1$BtnFinalizar&#39;,&#39;&#39;);" id="ctl00_ContentPlaceHolder1_BtnFinalizar" class="BotonFinalizar" onmouseover="this.className=&#39;BotonFinalizar_Hover&#39;;" onmouseout="this.className=&#39;BotonFinalizar&#39;;">
+    </div>
+    <br>
+
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot role="presentation">
+            <tr valign="top" role="presentation">
+                <td height="18px" align="center" valign="bottom" style="border: 0px; background-color: #dddddd" role="presentation">
+                    <div style="width: 99%; margin-top: 1px; height: 3px; font-size: 3px; border-top: solid 1px #bbb">
+                        &nbsp;</div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+
+
+</body></html>
